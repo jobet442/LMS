@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <custom>true</custom>
+    <userLicense>Salesforce</userLicense>
+    
+    <!-- Support Permissions -->
+    <!-- Removed ManageUsers and ResetPasswords to avoid triggering the massive System Administrator dependency chain -->
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RunReports</name>
+    </userPermissions>
+    
+    <!-- Restrict Core Config -->
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewSetup</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AuthorApex</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CustomizeApplication</name>
+    </userPermissions>
+
+    <!-- Standard Object Permissions -->
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Account</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Contact</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+
+</Profile>
