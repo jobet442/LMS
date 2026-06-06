@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accreditation_Status__c</fullName>
+    <description>The accreditation status of the educational institution.</description>
+    <externalId>false</externalId>
+    <label>Accreditation Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fully Accredited</fullName>
+                <default>false</default>
+                <label>Fully Accredited</label>
+            </value>
+            <value>
+                <fullName>Provisional</fullName>
+                <default>false</default>
+                <label>Provisional</label>
+            </value>
+            <value>
+                <fullName>Unaccredited</fullName>
+                <default>false</default>
+                <label>Unaccredited</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

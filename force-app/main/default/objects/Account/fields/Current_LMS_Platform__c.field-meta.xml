@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_LMS_Platform__c</fullName>
+    <description>The current or previous LMS platform used by the institution.</description>
+    <externalId>false</externalId>
+    <label>Current LMS Platform</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Canvas</fullName>
+                <default>false</default>
+                <label>Canvas</label>
+            </value>
+            <value>
+                <fullName>Blackboard</fullName>
+                <default>false</default>
+                <label>Blackboard</label>
+            </value>
+            <value>
+                <fullName>Moodle</fullName>
+                <default>false</default>
+                <label>Moodle</label>
+            </value>
+            <value>
+                <fullName>Google Classroom</fullName>
+                <default>false</default>
+                <label>Google Classroom</label>
+            </value>
+            <value>
+                <fullName>Other / None</fullName>
+                <default>false</default>
+                <label>Other / None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

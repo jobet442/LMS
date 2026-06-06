@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Provider</fullName>
+    <active>true</active>
+    <description>For third-party content creators or partner organizations providing courses.</description>
+    <label>Training Provider</label>
+</RecordType>

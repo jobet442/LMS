@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Corporate_Client</fullName>
+    <active>true</active>
+    <description>For B2B businesses purchasing training programs for their employees.</description>
+    <label>Corporate Client</label>
+</RecordType>
