@@ -5,5 +5,9 @@
 		<members>Contact</members>
 		<name>CustomObject</name>
 	</types>
+	<types>
+		<members>Admin</members>
+		<name>Profile</name>
+	</types>
 	<version>66.0</version>
 </Package>
